@@ -37,7 +37,7 @@ blocks:
   id: variable
   parameters:
     comment: ''
-    value: 1/180e-6
+    value: 1/176e-6
   states:
     bus_sink: false
     bus_source: false
@@ -57,7 +57,7 @@ blocks:
     coordinate: [328, 4.0]
     rotation: 0
     state: enabled
-- name: packet_A
+- name: packet_red
   id: variable
   parameters:
     comment: ''
@@ -70,37 +70,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [24, 92.0]
-    rotation: 0
-    state: enabled
-- name: packet_B
-  id: variable
-  parameters:
-    comment: ''
-    value: '[1, 0, 0, 0, 1, 1, 1, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 1, 0, 1, 0, 0,
-      0, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 1, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 1, 0, 1,
-      0, 0, 0, 1, 1, 1, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 1, 0, 1, 0, 0,
-      0, 1, 1, 1, 0, 1, 1, 1, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0]'
-  states:
-    bus_sink: false
-    bus_source: false
-    bus_structure: null
-    coordinate: [280, 92.0]
-    rotation: 0
-    state: enabled
-- name: packet_OnOff
-  id: variable
-  parameters:
-    comment: ''
-    value: '"1, 0, 0, 0, 1, 1, 1, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 1, 0, 1, 0, 0,
-      0, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 1, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 1, 0, 1,
-      0, 0, 0, 1, 1, 1, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 1, 0, 1, 0, 0,
-      0, 1, 1, 1, 0, 1, 0, 0, 0, 1, 1, 1, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0"'
-  states:
-    bus_sink: false
-    bus_source: false
-    bus_structure: null
-    coordinate: [536, 92.0]
+    coordinate: [24, 100.0]
     rotation: 0
     state: enabled
 - name: samp_rate
@@ -254,7 +224,7 @@ blocks:
     repeat: 'False'
     tags: '[]'
     type: byte
-    vector: 10*spacing*[0] + 100*packet_A + 10*spacing*[0]
+    vector: 10*spacing*[0] + 100*packet_red + 10*spacing*[0]
     vlen: '1'
   states:
     bus_sink: false

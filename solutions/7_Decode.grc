@@ -324,7 +324,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [1304, 208.0]
+    coordinate: [1344, 220.0]
     rotation: 0
     state: enabled
 - name: digital_symbol_sync_xx_0
@@ -663,7 +663,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [1536, 212.0]
+    coordinate: [1576, 212.0]
     rotation: 0
     state: true
 - name: satellites_sync_to_pdu_0
@@ -681,7 +681,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [1128, 20.0]
+    coordinate: [1096, 52.0]
     rotation: 0
     state: enabled
 

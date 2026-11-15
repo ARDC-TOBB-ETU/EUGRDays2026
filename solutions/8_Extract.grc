@@ -112,7 +112,7 @@ blocks:
   id: variable
   parameters:
     comment: ''
-    value: 177e-6
+    value: 176e-6
   states:
     bus_sink: false
     bus_source: false
@@ -240,7 +240,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [1720, 16.0]
+    coordinate: [1744, 8.0]
     rotation: 0
     state: enabled
 - name: blocks_throttle_0
@@ -289,7 +289,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [1496, 184.0]
+    coordinate: [1488, 204.0]
     rotation: 0
     state: enabled
 - name: digital_binary_slicer_fb_0
@@ -358,7 +358,7 @@ blocks:
     label: File Name
     short_id: ''
     type: str
-    value: HighTek_A.dat
+    value: keyfinder_red.dat
   states:
     bus_sink: false
     bus_source: false
@@ -658,7 +658,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [1712, 220.0]
+    coordinate: [1704, 204.0]
     rotation: 0
     state: true
 - name: satellites_sync_to_pdu_0
@@ -692,7 +692,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [1656, 132.0]
+    coordinate: [1648, 116.0]
     rotation: 0
     state: true
 

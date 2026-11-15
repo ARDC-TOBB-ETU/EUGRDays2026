@@ -225,7 +225,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [840, 144.0]
+    coordinate: [856, 172.0]
     rotation: 0
     state: enabled
 - name: filename
@@ -237,7 +237,7 @@ blocks:
     label: ''
     short_id: ''
     type: str
-    value: HighTek_A.dat
+    value: keyfinder_red.dat
   states:
     bus_sink: false
     bus_source: false
@@ -440,7 +440,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [1064, 140.0]
+    coordinate: [1096, 140.0]
     rotation: 0
     state: enabled
 
