@@ -137,7 +137,7 @@ def main():
             # MS
             print("message len="+str(len(rx_bits))+str(rx_bits[:8]))
             # append sync bits 
-            rx_bits = [1, 0, 0, 0, 1, 1, 1, 0, 1, 0, 0, 0, 1, 0, 0, 0] + rx_bits
+            rx_bits = [1, 1, 1, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0] + rx_bits
             decoded_bits = decoder(encoded_bits=rx_bits, encoding=args.decode)
             decoded_bytes = bit_list_to_byte_list(decoded_bits)
             print(f"{byte_list_to_hex_str(decoded_bytes)}")
